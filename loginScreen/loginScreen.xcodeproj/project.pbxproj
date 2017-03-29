@@ -10,6 +10,7 @@
 		6B00A5461E81F8E500F6EE5B /* usernameField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B00A5451E81F8E500F6EE5B /* usernameField.swift */; };
 		6B00A5481E81F94300F6EE5B /* passwordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B00A5471E81F94300F6EE5B /* passwordField.swift */; };
 		6B00A5C21E8218DA00F6EE5B /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B00A5C11E8218DA00F6EE5B /* AlarmViewController.swift */; };
+		6B4DFF991E8B386600812EE7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DFF981E8B386600812EE7 /* RegisterViewController.swift */; };
 		6B7F4CBF1E80B192003360EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F4CBE1E80B192003360EC /* AppDelegate.swift */; };
 		6B7F4CC11E80B192003360EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F4CC01E80B192003360EC /* ViewController.swift */; };
 		6B7F4CC41E80B192003360EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7F4CC21E80B192003360EC /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		6B00A5451E81F8E500F6EE5B /* usernameField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usernameField.swift; sourceTree = "<group>"; };
 		6B00A5471E81F94300F6EE5B /* passwordField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = passwordField.swift; sourceTree = "<group>"; };
 		6B00A5C11E8218DA00F6EE5B /* AlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		6B4DFF981E8B386600812EE7 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		6B7F4CBB1E80B192003360EC /* loginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7F4CBE1E80B192003360EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B7F4CC01E80B192003360EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				6B00A5471E81F94300F6EE5B /* passwordField.swift */,
 				6B00A5C11E8218DA00F6EE5B /* AlarmViewController.swift */,
 				6BAE13651E8854D0008261F8 /* LightingViewController.swift */,
+				6B4DFF981E8B386600812EE7 /* RegisterViewController.swift */,
 			);
 			path = loginScreen;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				6B7F4CED1E80B434003360EC /* LoginTextField.swift in Sources */,
 				6B7F4CC11E80B192003360EC /* ViewController.swift in Sources */,
 				6B00A5C21E8218DA00F6EE5B /* AlarmViewController.swift in Sources */,
+				6B4DFF991E8B386600812EE7 /* RegisterViewController.swift in Sources */,
 				6B00A5461E81F8E500F6EE5B /* usernameField.swift in Sources */,
 				6BAE13661E8854D0008261F8 /* LightingViewController.swift in Sources */,
 				6B7F4CBF1E80B192003360EC /* AppDelegate.swift in Sources */,

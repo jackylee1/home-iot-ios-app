@@ -52,8 +52,10 @@ class ViewController: UIViewController,UITextFieldDelegate {
 							print(didSucceed)
 							if (didSucceed == "true")
 							{
-								let nextViewController = (self.storyboard?.instantiateViewController(withIdentifier: "homeNavController"))! as! UINavigationController
-								self.present(nextViewController,animated:true,completion:nil)
+								DispatchQueue.main.async {
+									let nextViewController = (self.storyboard?.instantiateViewController(withIdentifier: "homeNavController"))! as! UINavigationController
+									self.present(nextViewController,animated:true,completion:nil)
+								}
 							} else {
 								self.errorResponse.text = "Incorrect username or password"
 								self.passwordTextField.text = nil
