@@ -24,6 +24,7 @@ class LightingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 	
+	// turn LED on api call
 	@IBAction func turnOn(_ sender: UIButton) {
 		var request = URLRequest.init(url: URL.init(string: self.onEndPoint)!)
 		request.httpMethod = "GET"
@@ -37,6 +38,7 @@ class LightingViewController: UIViewController {
 		}).resume()
 	}
 
+	// turn LED off api call
 	@IBAction func turnOff(_ sender: UIButton) {
 		var request = URLRequest.init(url: URL.init(string: self.offEndPoint)!)
 		request.httpMethod = "GET"
@@ -49,14 +51,4 @@ class LightingViewController: UIViewController {
 			}
 		}).resume()
 	}
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
